@@ -171,7 +171,10 @@ This is a complete list of supported search filters with examples. Filters can g
 | vector    | switch    | vector:yes                            | Finds vector graphics only                                                                                                                 |
 | video     | switch    | video:yes                             | Finds video files only                                                                                                                     |
 | after     | timestamp | after:"2022-01-30"                    | Finds pictures taken after this date                                                                                                       |
-| before    | timestamp | before:"2022-01-30"                   | Finds pictures taken before this date    
+| before    | timestamp | before:"2022-01-30"                   | Finds pictures taken before this date                                                                                                      |
+| minalt    | number    | minalt:2500                           | Finds pictures taken above the specified GPS altitude, inclusive                                                                           |
+| maxalt    | number    | maxalt:2500                           | Finds pictures taken under the specified GPS altitude, inclusive                                                                           |
+
 
 !!! question "Why can't I play live photos or find stacks when I search for specific images?"
     Our search API and user interface perform a file search. This is intentional since "stacks" can contain files of different types and properties, such as color.
