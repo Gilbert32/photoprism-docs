@@ -172,7 +172,7 @@ This is a complete list of supported search filters with examples. Filters can g
 | video     | switch    | video:yes                             | Finds video files only                                                                                                                     |
 | after     | timestamp | after:"2022-01-30"                    | Finds pictures taken after this date                                                                                                       |
 | before    | timestamp | before:"2022-01-30"                   | Finds pictures taken before this date                                                                                                      |
-| alt       | string    | alt:"200-500"                         | Finds pictures taken in the specified GPS range, inclusive                                                                                 |
+| alt       | string    | alt:"200-500"                         | Finds pictures taken in the specified GPS altitude range, inclusive (in meters)                                                            |
 
 
 !!! question "Why can't I play live photos or find stacks when I search for specific images?"
