@@ -83,7 +83,7 @@ docker compose up
 
 ### Docker Doesn't Work ###
 
-Users of Red Hat-compatible Linux distributions such as Red Hat Enterprise Linux®, CentOS, Fedora, AlmaLinux, and Rocky Linux can substitute the `docker` and `docker compose` commands with `podman` and `podman-compose` as [drop-in replacements](docker.md#podman).
+Make sure you have [Docker](https://store.docker.com/search?type=edition&offering=community) or [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed, started, and properly configured on your system. It is available for Mac, Linux, and Windows. On Red Hat-compatible Linux distributions like RHEL, CentOS, Fedora, AlmaLinux, and Rocky Linux, you can [use Podman and Podman Compose as direct replacements](docker.md#podman-compose) for Docker and Docker Compose.
 
 ↪ [Getting Docker Up and Running](docker.md)
 
@@ -304,3 +304,4 @@ Please note:
 *[host]: Computer, Cloud Server, or VM that runs PhotoPrism
 *[read-only]: write protected
 *[filesystem]: contains your files and folders
+*[RHEL]: Red Hat Enterprise Linux®
